@@ -8,6 +8,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.kerofin.demon.co.uk/rox/%{_name}-%{version}.tgz
+# Source0-md5:	41e844df5d75886557dcc94f8c846e88
 Patch0:		%{name}-libxml-includes.patch
 Patch1:		%{name}-paths-fix.patch
 URL:		http://www.kerofin.demon.co.uk/rox/utils.html#load
