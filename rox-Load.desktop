@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ROX-Load
+Comment=Displays the load average of Your system
+Comment[pl]=Wyświetla średnie obciążenie Twojego systemu
+Exec=/usr/lib/ROX-apps/Load/AppRun
+Icon=rox-Load.png
+Terminal=false
+Type=Application
+Categories=System;Monitor;
+Encoding=UTF-8
+# vi: encoding=utf-8
