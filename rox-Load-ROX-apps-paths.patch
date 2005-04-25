@@ -1,0 +1,18 @@
+diff -urN Load.new/libdir Load/libdir
+--- Load.new/libdir	2005-04-25 07:48:58.755373184 +0200
++++ Load/libdir	2005-04-25 07:56:29.578837600 +0200
+@@ -5,12 +5,12 @@
+ # $Id$
+ 
+ if [ x"$LIBDIRPATH" = x ]; then
+-  LIBDIRPATH="$HOME/lib:/usr/local/lib:/usr/lib"
++  LIBDIRPATH="$HOME/lib:/usr/local/lib:/usr/lib:/usr/lib/ROX-apps"
+   export LIBDIRPATH
+ fi
+ 
+ if [ x"$APPDIRPATH" = x ]; then
+-  APPDIRPATH="$HOME/Apps:/usr/local/apps:/usr/apps"
++  APPDIRPATH="$HOME/Apps:/usr/local/apps:/usr/apps:/usr/lib/ROX-apps"
+   export APPDIRPATH
+ fi
+ 
