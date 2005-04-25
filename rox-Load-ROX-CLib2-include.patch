@@ -1,0 +1,29 @@
+diff -urN Load.new/src/load.c Load/src/load.c
+--- Load.new/src/load.c	2005-04-25 07:48:58.754373336 +0200
++++ Load/src/load.c	2005-04-25 07:53:32.434767592 +0200
+@@ -39,11 +39,11 @@
+ 
+ #define USE_SERVER 1
+ 
+-#include <rox/rox.h>
+-#include <rox/applet.h>
+-#include <rox/rox_soap.h>
+-#include <rox/rox_soap_server.h>
+-#include <rox/options.h>
++#include <ROX-CLib2/rox.h>
++#include <ROX-CLib2/applet.h>
++#include <ROX-CLib2/rox_soap.h>
++#include <ROX-CLib2/rox_soap_server.h>
++#include <ROX-CLib2/options.h>
+ 
+ static GtkWidget *menu=NULL;
+ static GtkWidget *infowin=NULL;
+@@ -206,7 +206,7 @@
+   printf("Distributed under the terms of the GNU General Public License.\n");
+   printf("(See the file COPYING in the Help directory).\n");
+   printf("%s last compiled %s\n", __FILE__, __DATE__);
+-  printf("ROX-CLib version %s for GTK+ %s (compiled for %d.%d.%d)\n",
++  printf("ROX-CLib2 version %s for GTK+ %s (compiled for %d.%d.%d)\n",
+ 	 rox_clib_version_string(),
+ 	 rox_clib_gtk_version_string(),
+          ROX_CLIB_VERSION/10000, (ROX_CLIB_VERSION%10000)/100,
