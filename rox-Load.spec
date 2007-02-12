@@ -1,7 +1,7 @@
 %define _name Load
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	ROX-Load displays the load average of Your system
-Summary(pl.UTF-8):   ROX-Load wyświetla średnie obciążenie Twojego systemu
+Summary(pl.UTF-8):	ROX-Load wyświetla średnie obciążenie Twojego systemu
 Name:		rox-%{_name}
 Version:	2.1.2
 Release:	2
