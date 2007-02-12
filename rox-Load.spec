@@ -1,7 +1,7 @@
 %define _name Load
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	ROX-Load displays the load average of Your system
-Summary(pl):	ROX-Load wy¶wietla ¶rednie obci±¿enie Twojego systemu
+Summary(pl.UTF-8):   ROX-Load wyÅ›wietla Å›rednie obciÄ…Å¼enie Twojego systemu
 Name:		rox-%{_name}
 Version:	2.1.2
 Release:	2
@@ -29,9 +29,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ROX-Load is an applet for use in a ROX-Filer panel or pinboard. It
 displays the system load average.
 
-%description -l pl
-ROX-Load jest apletem, który mo¿e byæ u¿ywany z panelem lub pulpitem
-ROX-Filera. Wy¶wietla on ¶rednie obci±¿enie systemu.
+%description -l pl.UTF-8
+ROX-Load jest apletem, ktÃ³ry moÅ¼e byÄ‡ uÅ¼ywany z panelem lub pulpitem
+ROX-Filera. WyÅ›wietla on Å›rednie obciÄ…Å¼enie systemu.
 
 %prep
 %setup -q -n %{_name}
